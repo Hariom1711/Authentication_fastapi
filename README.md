@@ -19,9 +19,21 @@ Based on the code you shared, there are a few things you could do to make it mor
 ////////////////////////////////////////////////////////////////////Security things /////////////////////////////////////////////////////////
 
 
-Validation -done using validator.js
-Content Security Policies (CSP)[ it help us to prevent from xss attack] - can do using fronted but that can be bypassed in some browsers.
- client-side sanitization[ it help us to prevent from xss attack] - done it in frontend using dompurify but server-side sanitization should also be done.
- Implementing rate limiting[it prevent from brute force attacker ] -can be done from frontend but doing from server is more secure
- storing token in Httponly cokkie [storing on localstorage may be some security issue because of xss attack ]- done  
+1.=> Validation -done using validator.js
+
+.............................................................................................................................................
+
+2.=>Content Security Policies (CSP)[ it help us to prevent from xss attack] - can do using fronted but that can be bypassed in some browsers.
+
+ .................................................................................................................................................
+ 
+3.=> client-side sanitization[ it help us to prevent from xss attack] - done it in frontend using dompurify but server-side sanitization should also be done.
+ 
+ ..........................................................................................................................................................
+ 
+ 4.=>Implementing rate limiting[it prevent from brute force attacker ] -can be done from frontend but doing from server is more secure
+ 
+ ........................................................................................................................................................
+ 
+5.=>  storing token in Httponly cokkie [storing on localstorage may be some security issue because of xss attack ]- done  
 
